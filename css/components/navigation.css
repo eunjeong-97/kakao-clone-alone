@@ -1,0 +1,41 @@
+.top-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px;
+  font-size: 20px;
+}
+.top-navigation__title {
+  font-size: 25px;
+}
+
+.top-navigation__icon-container i {
+  margin-left: 20px;
+}
+
+.bottom-navigation {
+  position: sticky;
+  bottom: 0;
+}
+.bottom-navigation__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  width: 100vw;
+  padding: 15px;
+  box-sizing: border-box;
+  bottom: 0;
+  background-color: var(--main-light);
+  font-size: 25px;
+}
+
+.bottom-navigation__button {
+  position: relative;
+}
+
+.chat-information {
+  position: absolute;
+  left: 16px;
+  top: -6px;
+}

@@ -1,0 +1,44 @@
+.open-chat-components {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.open-chat-components__text {
+  width: 70%;
+}
+.open-chat-components__title {
+  margin-bottom: 5px;
+}
+
+.open-chat-components__status {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.open-chat-components__status img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.open-chat-components__image {
+  position: relative;
+  width: 30%;
+  vertical-align: top;
+}
+
+.open-chat-components__image img {
+  border-radius: 10px;
+}
+
+.number-bedge {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  padding: 2px 5px;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 20px;
+  color: white;
+}

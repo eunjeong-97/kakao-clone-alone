@@ -1,0 +1,22 @@
+.find__service-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 18px;
+}
+.find__service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70px;
+  height: 80px;
+  text-align: center;
+}
+.find__service-item i {
+  margin-bottom: 10px;
+}
+
+.find__recommend {
+  padding: 80px 50px;
+  text-align: center;
+}

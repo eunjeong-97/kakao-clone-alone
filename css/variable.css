@@ -1,0 +1,23 @@
+:root {
+  /* color */
+  --main-color: #94f8b7;
+  --main-light: #bdeece;
+  --grey-color: #948d8d;
+  --grey-light: #c6c6c6;
+  
+  /* divide */
+  --divide-margin: 10px;
+  --divide-border: 1px solid #d9d9d9;
+}
+
+.text-grey {
+  color: var(--grey-light);
+}
+
+.text-main {
+  color: var(--main-color);
+}
+
+.text-red {
+  color: tomato;
+}
