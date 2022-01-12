@@ -5,17 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Index - Kokoa Clone Alone</title>
+    <title>Login - Kokoa Clone Alone</title>
+    <script>
+      function submit2(frm) {
+        frm.action = 'login.html';
+        frm.submit();
+        alert('회원가입완료, 다시 로그인해주세요')
+        return true;
+      }
+    </script>
   </head>
   <body>
-    <div class="index-container">
-      <div class="index-container__center">
-        <span>Start Kokoa Clone</span>
-        <a href="login.html"><i class="fa-solid fa-comment fa-5x"></i></a>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-lock"></i>
+        <span>110%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
       </div>
     </div>
+
+    <header class="login-header">
+      <h6 class="login-header__title">Welcome to KokoaTaik</h6>
+      <div class="login-header__main-text">
+        <p>If you have a Kokoa Acount,</p>
+        <p>log in with your email or phone number.</p>
+      </div>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input name="email" type="email" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <input type="submit" value="Sign Up" onclick="return submit2(this.form);" />
+    </form>
+    
     <script
-      src="https://kit.fontawesome.com/e06c3f698f.js"
+      src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
     ></script>
   </body>

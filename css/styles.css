@@ -2,33 +2,22 @@
 
 @import "reset.css";
 @import "variable.css";
+@import "common.css";
 
 /* Components */
 @import "components/status-bar.css";
 @import "components/navigation.css";
+@import "components/alt-header.css";
 @import "components/subtitle.css";
 @import "components/user-components.css";
 @import "components/bedge.css";
 @import "components/chat-components.css";
+@import "components/icons-row.css";
 
 /* Pages */
 @import "pages/index.css";
-@import "pages/login.css";
 @import "pages/friends.css";
 @import "pages/find.css";
 @import "pages/more.css";
-
-.main-container {
-  position: relative;
-  padding: 20px;
-  height: 100vh;
-}
-
-.divider {
-  height: var(--divider-margin);
-  border-bottom: 1px solid var(--grey-light);
-}
-
-.span-divide {
-  margin: 0 5px;
-}
+@import "pages/settings.css";
+@import "pages/chat.css";

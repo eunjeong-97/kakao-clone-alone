@@ -1,3 +1,13 @@
+@keyframes splash-screen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
 .frineds__header-bar {
   background-color: var(--main-light);
   text-align: center;
@@ -7,4 +17,16 @@
 
 .frineds__header-bar span {
   margin-right: 5px;
+}
+
+.splash-screen {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  background-color: var(--main-color);
+  animation: splash-screen 0.3s 1s forwards;
 }

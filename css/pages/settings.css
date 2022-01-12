@@ -1,0 +1,26 @@
+.settinds-screen {
+  display: flex;
+  flex-direction: column;
+}
+
+.setting-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  padding: 20px 0;
+  font-weight: lighter;
+  border-bottom: 1px solid var(--grey-lighter);
+}
+
+.setting-row__column {
+  display: flex;
+}
+
+.setting-row__column > i {
+  margin-right: 20px;
+}
+
+.setting-row__title > span {
+  margin-right: 5px;
+}
+

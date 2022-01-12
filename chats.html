@@ -30,29 +30,37 @@
         <i class="fas fa-search"></i>
         <i class="fas fa-comment-medical"></i>
         <i class="fas fa-music"></i>
-        <a href="settings.html"><i class="fas fa-cog"></i></a>
+        <a class="top-navigation__link" href="settings.html">
+          <i class="fas fa-cog bedge-background">
+            <div class="bedge setting-notice"></div>
+          </i>
+        </a>
       </div>
     </header>
 
     <div class="main-container">
-      <div class="user-components">
-        <div class="user-components__column">
-          <div class="user-components__profile">
-            <img
-              alt="카카오톡 채널이미지"
-              src="http://image.kmib.co.kr/online_image/2020/0101/611414110014085644_1.jpg"
-            />
+      <a href="chat.html">
+        <div class="user-components">
+          <div class="user-components__column">
+            <div class="user-components__profile">
+              <img
+                alt="카카오톡 채널이미지"
+                src="http://image.kmib.co.kr/online_image/2020/0101/611414110014085644_1.jpg"
+              />
+            </div>
+            <div class="user-components__text">
+              <p class="user-components__title">KokoaTalk</p>
+              <p class="user-components__subtitle text-grey">
+                Please check My Kokoa Account Info
+              </p>
+            </div>
           </div>
-          <div class="user-components__text">
-            <p class="user-components__title">KokoaTalk</p>
-            <p class="user-components__subtitle text-grey">Please check My Kokoa Account Info</p>
+          <div class="user-components__column text-grey">
+            <span>21:22</span>
+            <div class="bedge-xl"><span>1</span></div>
           </div>
         </div>
-        <div class="user-components__column text-grey">
-          <span>21:22</span>
-          <div class="bedge-xl"><span>1</span></div>
-        </div>
-      </div>
+      </a>
     </div>
 
     <!-- navigation은 ul~li 리스트형식으로 구성하기 -->
@@ -72,11 +80,14 @@
           <a href="find.html"><i class="fas fa-search"></i></a>
         </li>
         <li class="bottom-navigation__button">
-          <a href="more.html"><i class="fas fa-ellipsis-h"></i></a>
+          <a href="more.html"
+            ><i class="fas fa-ellipsis-h">
+              <div class="bedge setting-notice"></div> </i
+          ></a>
         </li>
       </ul>
     </nav>
-    
+
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"

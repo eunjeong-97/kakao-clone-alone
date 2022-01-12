@@ -28,26 +28,39 @@
       <div class="top-navigation__title">Find</div>
       <div class="top-navigation__icon-container">
         <i class="fas fa-search"></i>
-        <a href="settings.html"><i class="fas fa-cog"></i></a>
+        <a class="top-navigation__link" href="settings.html">
+          <i class="fas fa-cog bedge-background">
+            <div class="bedge setting-notice"></div>
+          </i>
+        </a>
       </div>
     </header>
 
-    <main class="main-container">
-      <div class="find__service-menu">
-        <div class="find__service-item">
-          <i class="fas fa-qrcode"></i>
+    <main class="main-container find-screen">
+      <!-- 아이콘 컴포넌트 사용 -->
+      <div class="icons-row">
+        <div class="icons-row__item">
+          <div class="icons-row__icon">
+            <i class="fas fa-qrcode"></i>
+          </div>
           <span>QR Code</span>
         </div>
-        <div class="find__service-item">
-          <i class="fas fa-address-book"></i>
+        <div class="icons-row__item">
+          <div class="icons-row__icon">
+            <i class="fas fa-address-book"></i>
+          </div>
           <span>Add by Contents</span>
         </div>
-        <div class="find__service-item">
-          <i class="fas fa-fingerprint"></i>
+        <div class="icons-row__item">
+          <div class="icons-row__icon">
+            <i class="fas fa-fingerprint"></i>
+          </div>
           <span>Add by ID</span>
         </div>
-        <div class="find__service-item">
-          <i class="far fa-envelope"></i>
+        <div class="icons-row__item">
+          <div class="icons-row__icon">
+            <i class="far fa-envelope"></i>
+          </div>
           <span>Invite</span>
         </div>
       </div>
@@ -137,7 +150,7 @@
         </li>
         <li class="bottom-navigation__button">
           <a href="chats.html">
-            <i class="fas fa-comment">
+            <i class="far fa-comment">
               <div class="chat-information bedge-xl">1</div>
             </i>
           </a>
@@ -146,7 +159,10 @@
           <a href="find.html"><i class="fas fa-search"></i></a>
         </li>
         <li class="bottom-navigation__button">
-          <a href="more.html"><i class="fas fa-ellipsis-h"></i></a>
+          <a href="more.html"
+            ><i class="fas fa-ellipsis-h">
+              <div class="bedge setting-notice"></div> </i
+          ></a>
         </li>
       </ul>
     </nav>

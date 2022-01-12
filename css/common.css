@@ -1,0 +1,14 @@
+.main-container {
+  position: relative;
+  padding: 20px;
+  height: 100vh;
+}
+
+.divider {
+  height: var(--divide-margin);
+  border-bottom: 1px solid var(--grey-light);
+}
+
+.span-divide {
+  margin: 0 5px;
+}

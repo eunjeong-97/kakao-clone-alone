@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>More - Kokoa Clone Alone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-lock"></i>
+        <span>110%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fas fa-chevron-left"></i></a>
+      </div>
+      <div class="alt-header__column">KokoaTalk</div>
+      <div class="alt-header__column">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+
+    <main class="main-container main-chat">
+      <div class="chat-day">Thuesday, June 30, 2020</div>
+
+      <div class="message-row">
+        <img src="http://image.kmib.co.kr/online_image/2020/0101/611414110014085644_1.jpg" />
+        <div class="message__text-container">
+          <div class="message__user-name text-grey">KokoaTalk</div>
+          <div class="message__content">
+            <div class="message__bubble opponent-message__bubble">Please check My Kokoa Account Info</div>
+            <div class="message__time text-grey">21:27</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row own-message">
+        <div class="message__text-container">
+          <div class="message__user-name text-grey"></div>
+          <div class="message__content own-message">
+            <div class="message__bubble own-message__bubble">Okey!</div>
+            <div class="message__time text-grey">21:27</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <i class="far fa-plus-square fa-2x"></i>
+      <div class="reply__content">
+        <textarea placeholder='Write a message...' rows="1"></textarea>
+        <i class="far fa-smile-wink"></i>
+        <i class="fas fa-arrow-circle-up fa-2x"></i>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

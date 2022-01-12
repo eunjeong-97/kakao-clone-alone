@@ -4,6 +4,8 @@
   --main-light: #bdeece;
   --grey-color: #948d8d;
   --grey-light: #c6c6c6;
+  --grey-lighter: #f7f7f7;
+  --chat-color: #f29886;
   
   /* divide */
   --divide-margin: 10px;
@@ -20,4 +22,8 @@
 
 .text-red {
   color: tomato;
+}
+
+.border-none {
+  border: none;
 }
