@@ -13,6 +13,7 @@
 @import "components/bedge.css";
 @import "components/chat-components.css";
 @import "components/icons-row.css";
+@import "components/no-media.css";
 
 /* Pages */
 @import "pages/index.css";

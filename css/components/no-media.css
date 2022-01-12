@@ -1,0 +1,26 @@
+#no-desktop {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  background-color: var(--main-color);
+  font-size: 40px;
+  font-weight: 600;
+  z-index: 99;
+}
+
+@media screen and (min-width: 646px) {
+  body {
+    height: 100vh;
+    overflow-y: hidden;
+  }
+}
+@media screen and (max-width: 645px) {
+  #no-desktop {
+    display: none;
+  }
+}
