@@ -1,8 +1,19 @@
 .user-components {
   display: flex;
   justify-content: space-between;
-  margin-bottom: var(--divide-margin);
+  padding: var(--divide-margin) 0;
+  border-top: 1px solid var(--grey-lighter);
+  border-bottom: 1px solid var(--grey-lighter);
 }
+
+.first-user-components {
+  border-top: none;
+}
+
+.border-none {
+  border: none;
+}
+
 .user-components__column {
   display: flex;
   align-items: center;

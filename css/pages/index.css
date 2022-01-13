@@ -10,10 +10,14 @@
   font-weight: 500;
   margin-bottom: 20px;
 }
+
 .login-header__main-text {
   font-size: large;
   color: var(--grey-light);
   text-align: center;
+}
+.login-header__main-text > p {
+  margin-bottom: 10px;
 }
 
 #login-form {

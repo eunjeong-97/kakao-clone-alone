@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Login - Kokoa Clone Alone</title>
+    <title>Index - Mobile Chatting</title>
     <script>
       function submit2(frm) {
-        frm.action = 'login.html';
+        frm.action = 'index.html';
         frm.submit();
         alert('회원가입완료, 다시 로그인해주세요')
         return true;
@@ -33,22 +33,24 @@
     </div>
 
     <header class="login-header">
-      <h6 class="login-header__title">Welcome to KokoaTaik</h6>
+      <h6 class="login-header__title">Welcome</h6>
       <div class="login-header__main-text">
-        <p>If you have a Kokoa Acount,</p>
-        <p>log in with your email or phone number.</p>
+        <p>Skills: HTML, CSS</p>
+        <p>I will try to update from now on.</p>
+        <p>Please view only on mobile screen.</p>
       </div>
     </header>
 
     <form action="friends.html" method="get" id="login-form">
-      <input name="email" type="email" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
+      <input name="email" type="email" placeholder="Please write Email..." />
+      <input name="password" type="password" placeholder="Please write Password..." />
       <input type="submit" value="Log In" />
       <input type="submit" value="Sign Up" onclick="return submit2(this.form);" />
     </form>
 
     <div id="no-desktop">
-      <span>Your screen is too big!</span>
+      <p>Your screen is too big!</p>
+      <p>Please change to mobile screen.</p>
     </div>
     
     <script
